@@ -1,0 +1,18 @@
+@Override
+    protected void onStop()
+    {
+        Toast.makeText(MainActivity.this,"Goi Stop",Toast.LENGTH_LONG).show();
+        super.onStop();
+    }
+    @Override
+    protected void onPause()
+    {
+        Toast.makeText(MainActivity.this,"Goi Pause",Toast.LENGTH_LONG).show();
+        super.onPause();
+    }
+    @Override
+    protected void onResume()
+    {
+        Toast.makeText(MainActivity.this,"Goi Resume",Toast.LENGTH_LONG).show();
+        super.onResume();
+    }
